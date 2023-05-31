@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    MathjaxModule.forRoot()
+    //MathjaxModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

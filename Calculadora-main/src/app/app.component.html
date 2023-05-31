@@ -18,53 +18,53 @@
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
   <div class="row">
-    <div class="col3"><button style="color: white; background-color: red;" (click)="clear()">C</button></div>
-    <div class="col3"><button class="other" (click)="percent()">%</button></div>
-    <div class="col3"><button class="other" (click)="mm()">+/-</button></div>
-    <div class="col3"><button class="other" (click)="ope('/')">/</button></div>
+    <div class="col-3"><button style="color: white; background-color: red;" (click)="clear()">C</button></div>
+    <div class="col-3"><button class="other" (click)="percent()">%</button></div>
+    <div class="col-3"><button class="other" (click)="mm()">+/-</button></div>
+    <div class="col-3"><button class="other" (click)="ope('/')">/</button></div>
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
   <div class="row">
-    <div class="col3"><button class="num" (click)="putNum(1)">1</button></div>
-    <div class="col3"><button class="num" (click)="putNum(2)">2</button></div>
-    <div class="col3"><button class="num" (click)="putNum(3)">3</button></div>
-    <div class="col3"><button class="other" (click)="ope('*')">*</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(1)">1</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(2)">2</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(3)">3</button></div>
+    <div class="col-3"><button class="other" (click)="ope('*')">*</button></div>
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
   <div class="row">
-    <div class="col3"><button class="num" (click)="putNum(4)">4</button></div>
-    <div class="col3"><button class="num" (click)="putNum(5)">5</button></div>
-    <div class="col3"><button class="num" (click)="putNum(6)">6</button></div>
-    <div class="col3"><button class="other" (click)="ope('-')">-</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(4)">4</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(5)">5</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(6)">6</button></div>
+    <div class="col-3"><button class="other" (click)="ope('-')">-</button></div>
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
   <div class="row">
-    <div class="col3"><button class="num"(click)="putNum(7)">7</button></div>
-    <div class="col3"><button class="num" (click)="putNum(8)">8</button></div>
-    <div class="col3"><button class="num" (click)="putNum(9)">9</button></div>
-    <div class="col3"><button class="other" (click)="ope('+')">+</button></div>
+    <div class="col-3"><button class="num"(click)="putNum(7)">7</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(8)">8</button></div>
+    <div class="col-3"><button class="num" (click)="putNum(9)">9</button></div>
+    <div class="col-3"><button class="other" (click)="ope('+')">+</button></div>
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
   <div class="row">
-    <div class="col3"><button class="other" (click)="putDot()">.</button></div>
-    <div class="col3"><button class="num" (click)="putNum0()">0</button></div>
-    <div class="col3"><button class="more">vacio</button></div>
-    <div class="col3"><button class="other" (click)="eq()">=</button></div>
+    <div class="col-3"><button class="other" (click)="putDot()">.</button></div>
+    <div class="col-3"><button class="num" (click)="putNum0()">0</button></div>
+    <div class="col-3"><button class="more">vacio</button></div>
+    <div class="col-3"><button class="other" (click)="eq()">=</button></div>
   </div>
   <div class="row" style="color: rgba(0,0,0,0);">___</div>
-  <ng-template [ngIf]="showMore">
+  
     <div class="row">
-      <div class="col4"><button class="more" (click)="putTrig('Sen(')">Sen()</button></div>
-      <div class="col4"><button class="more" (click)="putTrig('Cos(')">Cos()</button></div>
-      <div class="col4"><button class="more" (click)="putTrig('Tan(')">Tan()</button></div>
+      <div class="col-4"><button class="more" (click)="putTrig('Sen(')">Sen()(no sirven)</button></div>
+      <div class="col-4"><button class="more" (click)="putTrig('Cos(')">Cos()(no sirven)</button></div>
+      <div class="col-4"><button class="more" (click)="putTrig('Tan(')">Tan()(no sirven)</button></div>
     </div>
     <div class="row" style="color: rgba(0,0,0,0);">___</div>
     <div class="row" style="color: rgba(0,0,0,0);">___</div>
     <div class="row">
-      <div class="col4"><button class="more" [mathjax]="ans" (click)="ansM()"></button></div>
-      <div class="col4"><button class="more" [mathjax]="exp" (click)="expC()"></button></div>
-      <div class="col4"><button class="more" (click)="pi()">Pi</button></div>
+      <div class="col-4"><button class="more"  (click)="ansM()">no funciona</button></div>
+      <div class="col-4"><button class="more"  (click)="expC()">^</button></div>
+      <div class="col-4"><button class="more" (click)="pi()">Pi</button></div>
     </div>
     <div class="row" style="color: rgba(0,0,0,0);">___</div>
-  </ng-template>
+ 
 </div>

@@ -1,5 +1,7 @@
 .row{
-    background-color: black;
+    background-color: rgb(22, 22, 22);
+    border-color: black;
+    border-style: solid;
 }
 h1 {
     text-align: center;
@@ -16,7 +18,7 @@ h1 {
         text-align: left;
     }
     padding: 30px;
-    background-color: lightgray;
+    background-color: greenyellow;
     border-radius: 0px 0px 50px 50px;
 }
 .subcontainer{
@@ -27,9 +29,8 @@ h1 {
     position: absolute;
     top: 8px;
     left: 40px;
-    font-family: "Josefin Sans", sans-serif;
     font-size: 25px;
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .overlay2{
     position: absolute;
@@ -38,7 +39,6 @@ h1 {
     @media (min-width: 1000px) {
         left: 88%;
     }
-    font-family: "Josefin Sans", sans-serif;
     font-size: 25px;
     color: rgba(0,0,0,0.4);
 }
@@ -49,19 +49,19 @@ h1 {
     text-align: center;
 }
 .other {
-    background-color: blue;
-    color: white;
+    background-color: orange;
+    color: black;
 }
 .more {
     background-color: rgb(212, 212, 0);
 }
 .num {
-    background-color: darkgray;
+    background-color: black;
+    color: white;
 }
 button{
-    font-family: "Josefin Sans", sans-serif;
     font-size: larger;
     width: 100%;
     padding: 16px;
-    border-radius: 50px;
+    border-radius: 10px 50px ;
 }

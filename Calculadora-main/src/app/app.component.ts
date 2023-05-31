@@ -8,7 +8,7 @@ import { OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
 
-  showMore :boolean = false
+  showMore :boolean = true
   a :string = ""
   b :string = ""
   c :number = 0
@@ -16,8 +16,8 @@ export class AppComponent implements OnInit{
   res:string = ""
   or:String = ""
   display :string = ""
-  ans = "Ans$^{-1}$"
-  exp = "$X^{Y}$"
+  ans = "Ans^-1"
+  exp = "X^Y"
   porci = ""
   calc = 0
   op :String = ""
@@ -67,15 +67,6 @@ export class AppComponent implements OnInit{
       else if(this.trig=="Tan("){
         this.dgToRad()
         this.c = (Number)(Math.tan(parseFloat(this.a)).toFixed(4))
-      }
-      else if(this.trig=="Arcsen("){
-        this.c = (Number)(Math.asin(parseFloat(this.a)).toFixed(4))
-      }
-      else if(this.trig=="Arccos("){
-        this.c = (Number)(Math.acos(-1).toFixed(4))
-      }
-      else if(this.trig=="Arctan("){
-        this.c = (Number)(Math.atan(parseFloat(this.a)).toFixed(4))
       }
       this.test = this.a
     }
